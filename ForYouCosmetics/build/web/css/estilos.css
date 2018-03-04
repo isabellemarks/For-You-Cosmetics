@@ -1,0 +1,500 @@
+fieldset {
+    border: 0;
+}
+
+/*MENU*/
+.slide-produtos {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    border: 10px solid #fff;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.itens > img {
+    width: 900px;
+    height: 500px;
+    margin: 0;
+    float:left;
+}
+
+.itens {
+    width: 2700px;
+    -webkit-animation: hscroll 15s infinite;
+    -moz-animation: hscroll 15s infinite;
+    -ms-animation: hscroll 15s infinite;
+}
+
+@-webkit-keyframes hscroll {
+    0%   { margin-left: 0; }
+    30%  { margin-left: -900px; }
+    60% { margin-left: -1800px; }
+    100%  { margin-left: 0 }
+}
+
+@-moz-keyframes hscroll {
+    0%   { margin-left: 0; }
+    30%  { margin-left: -900px; }
+    60% { margin-left: -1800px; }
+    100%  { margin-left: 0 }
+}
+
+@-ms-keyframes hscroll {
+    0%   { margin-left: 0; }
+    30%  { margin-left: -900px; }
+    60% { margin-left: -1800px; }
+    100%  { margin-left: 0 }
+}​
+
+/* HEADER */
+header {
+    position: relative;
+}
+
+#cabecarios {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#imagem-logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    padding: 23%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.menu-topo-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-topo-opcoes a {
+    color: #767174;
+}
+
+.menu-topo-opcoes a:hover {
+    font-weight: bold;
+    color: #000000;
+}
+
+.menu-topo-opcoes ul li {
+    display: inline;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.menu-topo-opcoes {
+    /*position: center;*/
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid #767174;
+    border-top: 1px solid #767174;
+}
+
+/*CONTATO*/
+#contato { /*corpo da página contato*/
+    margin-bottom: 3%;
+}
+
+#submit {
+    margin-left: 337%;
+}
+
+fieldset {
+    margin-right: 50%;
+}
+
+input {
+    height: 30px;
+}
+
+.contato_mensagem {
+    height: 100px;
+}
+
+#perfumes {
+    background-image: url(../img/perfumes.png);
+    background-repeat: no-repeat;
+    padding: 20%;
+    float: right;
+    margin-right: -5%;
+}
+
+.perfumes {
+    background-position: 80px;
+}
+
+#form-contato {
+    float: left;
+}
+
+/*BODY*/
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+body {
+    background-image: url(../img/bgcute.png);
+    background-repeat: repeat;
+}
+
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+body {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+/*FOOTER*/
+.imagensLogosMarcas {
+    display: inline;
+}
+
+footer {
+    border-top: 3px solid #000000;
+}
+
+.logos {
+    margin: 10px;
+}
+
+/*ACESSO A CONTA*/
+#acessoascontas {
+    position: relative;
+    margin-bottom: 40%;
+}
+
+.areaDoRevendedor {
+    margin-left: 10%;
+}
+
+#img-cliente {
+    background-image: url(../img/cliente.png);
+    background-repeat: no-repeat;
+    float: right;
+    padding: 20%;
+}
+
+#img-revendedor {
+    background-image: url(../img/revendedor.png);
+    background-repeat: no-repeat;
+    float: left;
+    padding: 20%;
+}
+
+/*LOGIN CLIENTE*/
+#img-login {
+    background-image: url(../img/login.png);
+    background-repeat: no-repeat;
+    padding: 20%;
+    float: right;
+}
+
+.conteudo-login-cliente {
+    margin-bottom: 10%;
+}
+
+#submit-login-cliente {
+    margin-left: 730%;
+}
+
+/*LOGIN REVENDEDOR*/
+.conteudo-login-revendedor {
+    margin-bottom: 10%;
+}
+
+#submit-login-revendedor {
+    margin-left: 730%;
+}
+
+/*AREA DO CLIENTE*/
+#area-do-cliente {
+    margin-bottom: 30%;
+}
+
+#conteudo-area-cliente {
+    float: right;
+    background-color: #000;
+    margin-right: 5%;
+    margin-top: -5%;
+}
+
+#faixa-cliente {
+    background-color: #FFF;
+    float: left;
+    margin-right: auto;
+    margin-left: 0;
+    background-image: url(../img/janela.png);
+    padding: 20%;
+}
+
+.menu-cliente ul {
+    list-style-type:none
+}
+
+.menu-cliente {
+    float: left;
+}
+
+.opcoes-menu-cliente {
+    float: right;
+    padding-right: 20%;
+}
+
+.dropdown-item:hover{
+    background: #FCCDEA;
+}
+.dropdown-item:hover .dropdown-sub{
+    display: block;
+    font-size: 30px;
+}
+
+.dropdown-label, .dropdown-sub-label{
+    display: block;
+    font-size: 16px;
+    color: #000;
+}
+
+.dropdown-label{
+    padding: 10px 20px;
+}
+
+.dropdown-sub{
+    display: none;
+    position: absolute;
+    background: #FFF;
+}
+
+.dropdown-sub-label{
+    padding: 5px 20px;
+    font-size: 13px;
+}
+
+/*INFORMAÇÕES DO CLIENTE*/
+#informacoes-cliente {
+    margin-bottom: 42%;
+}
+
+#conteudo-informacoes-cliente {
+    float: right;
+    margin-right: 5%;
+    margin-top: -5%;
+}
+
+#botao-alterar-cliente {
+    float: right;
+    margin-top: 2%;
+}
+
+/*INFORMAÇÕES SEGURANÇA*/
+#informacoes-cliente-seguranca {
+    margin-bottom: 25%;
+}
+
+#conteudo-informacoes-seguranca {
+    float: right;
+    margin-top: -2%;
+    margin-right: 30%;
+}
+
+#botao-alterar-info-seguranca {
+    float: right;
+}
+
+/*ULTIMO PEDIDO*/
+#ultimo-pedido {
+    margin-bottom: 20%;
+}
+
+#conteudo-ultimo-pedido {
+    float: right;
+    margin-right: 30%;
+}
+
+#ultimo-pedido-menu {
+    text-align: center;
+}
+
+/*TODOS OS PEDIDOS*/
+#todos-pedidos {
+    margin-bottom: 42%;
+}
+
+#conteudo-todos-pedidos {
+    float: right;
+    margin-right: 30%;
+}
+
+/*AREA DO REVENDEDOR*/
+#area-do-revendedor {
+    margin-bottom: 30%;
+}
+
+#conteudo-area-revendedor {
+    float: right;
+}
+
+/*PESQUISAR CLIENTE*/
+#form-pesquisar-cliente {
+    text-align: center;
+}
+
+.resultado-pesquisa-cliente-resultado{
+    background-color: #FFF;
+}
+
+.resultado-pesquisa-cliente-tabela {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.resultado-pesquisa-cliente-tabela > table {
+    background-color: #FFF;
+}
+
+.resultado-pesquisa-cliente{
+    border:1px solid #000;
+    background-color: #FFF;
+}
+
+/*PESQUISAR FORNECEDOR*/
+#form-pesquisar-fornecedor {
+    text-align: center;
+}
+
+.resultado-pesquisa-fornecedor-tabela {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.resultado-pesquisa-fornecedor-resultado{
+    background-color: #FFF;
+}
+
+.resultado-pesquisa-fornecedor-tabela > table {
+    background-color: #FFF;
+}
+
+.resultado-pesquisa-fornecedor{
+    border:1px solid #000;
+    background-color: #FFF;
+}
+
+/*PESQUISAR PRODUTO*/
+#form-pesquisar-produto {
+    text-align: center;
+}
+
+.resultado-pesquisa-produto-tabela {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.resultado-pesquisa-produto-resultado{
+    background-color: #FFF;
+}
+
+.resultado-pesquisa-produto{
+    border:1px solid #000;
+    background-color: #FFF;
+}
+
+.resultado-pesquisa-produto-tabela {
+    background-color: #FFF;
+}
+
+/*ADICIONAR PRODUTO*/
+#form-adicionar-produto {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+/*PAGINA DE ERRO*/
+#pag-error {
+    text-align: center;
+}
+
+/*PÁGINA EM CONSTRUÇÃO*/
+#construcao {
+    background-image: url(../img/emconstrucao.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-bottom: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#ativarcliente-pag {
+    text-align: center;
+}
+
+#sucesso-pag > h1 {
+    text-align: center;
+}
+
+#sucesso-img {
+    background-repeat: no-repeat;
+    background-image: url(../img/sucesso.png);
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+}
+
+/*PESQUISA DE EMAILS DE CONTATO*/
+.resultado-pesquisa-contato-tabela {
+    margin-left: 10%;
+    margin-left: 10%;
+}
+
+.resultado-pesquisa-contato-tabela > table {
+    background-color: #FFF;
+}
+
+#olho-erro {
+    background-repeat: no-repeat;
+    background-image: url(../img/ErrorServidor.png);
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-size: 100% 100%;
+    margin-top: 4%;
+}
+
+#boca-erro {
+    background-repeat: no-repeat;
+    background-image: url(../img/erro.png);
+    padding-top: 30%;
+    padding-bottom: 25%;
+    margin-right: 10%;
+    margin-left: 10%;
+}

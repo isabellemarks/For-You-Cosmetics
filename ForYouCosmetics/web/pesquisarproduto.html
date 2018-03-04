@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pesquisar Produto | For You Cosmetics</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/areadocliente.css">
+        <link rel="shortcut icon" href="img/icone.ico" />
+    </head>
+    <body>
+        <header class="container">
+            <!--[if lt IE 9]>
+             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+            <div id="imagem-logo">
+            </div>
+            <nav class="menu-topo-opcoes">
+                <ul>
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="duvidas.html">Dúvidas</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <p><a href="areadorevendedor.html" title=""><small>Área do Revendedor</small></a> >
+            <strong>Pesquisar Produto</strong></p>
+        <div id="form-pesquisar-produto">
+            <form action="PesquisarProdutoServlet.do" method="POST" accept-charset="utf-8">
+                Nome do produto:
+                <input required type="search" name="nome" value="" placeholder="Pesquisar por nome" size="40">
+                <input type="submit" name="submit" value="Pesquisar">
+            </form>
+        </div>
+        <br />
+        <br />
+        <div class="resultado-pesquisa-produto-tabela">
+            <table>
+
+            </table>
+        </div>
+        <br />
+        <br />
+        <footer>
+            <nav class="imagensLogosMarcas">
+                <h5>Nossas marcas:</h5>
+                <img class="logos" src="img/logobot.png" height="70" width="70" alt="logo boticario" /> <!--140 por 133px -->
+                <img class="logos" src="img/logo_avon.png" height="70" width="70" alt="logo avon" />
+                <img class="logos" src="img/logo_jequiti.jpg" height="70" width="70" alt="logo jequiti" />
+                <img class="logos" src="img/logo_natura.jpg" height="70" width="70" alt="logo natura" />
+                <img class="logos" src="img/logo_yes.jpg" height="70" width="70" alt="logo yes cosmetics" />
+                <img class="logos" src="img/logo_mac.jpg" height="70" width="70" alt="logo mac" />
+                <img class="logos" src="img/logo_nyx.jpg" height="70" width="70" alt="logo nyx" />
+                <img class="logos" src="img/logo_qdb.jpg" height="70" width="70" alt="logo qdb" />
+                <img class="logos" src="img/logo_vult.jpg" height="70" width="70" alt="logo vult" />
+            </nav>
+        </footer>
+    </body>
+</html>

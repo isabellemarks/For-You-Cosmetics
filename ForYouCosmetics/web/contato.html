@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fale Conosco | For You Cosmetics</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+        <link rel="shortcut icon" href="img/icone.ico" />
+        <!--[if lt IE 9]>
+         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header class="container">
+            <div id="imagem-logo">
+            </div>
+            <nav class="menu-topo-opcoes">
+                <ul>
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="acessoaconta.html">Acesse a conta</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="contato">
+            <h2>Fale Conosco:</h2>
+            <div>
+                <p>Sua opinião é muito importante para nós. Através dela podemos melhorar os nossos serviços.</p>
+                <p><strong>Atenção: </strong>Preecha todos os campos corretamente.</p>
+            </div>
+            <br>
+            <div id="perfumes"></div>
+            <div id="form-contato">
+                <strong>Contato:</strong>
+                <form action="ContatoServlet.do" method="POST">
+                    <table>
+                        <tr>
+                            <td>Nome Completo:</td>
+                            <td><input required type="text" id="nome" name="nome" size="50"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input required type="email" id="email" name="email" size="50"></td>
+                        </tr>
+                        <tr>
+                            <td>Telefone:</td>
+                            <td><input required type="number" name="telefone"></td>
+                        </tr>
+                        <tr>
+                            <td>Você é nosso:</td>
+                            <td>
+                                <select required id="voceENosso" name="voceENosso">
+                                    <option value="">Selecione...</option>
+                                    <option value="Consumidor">Consumidor</option>
+                                    <option value="Outro">Outro</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Assunto:</td>
+                            <td>
+                                <select required name="assunto">
+                                    <option value="">Selecione...</option>
+                                    <option value="Sugestões">Sugestões</option>
+                                    <option value="Reclamações">Reclamações</option>
+                                    <option value="Pedidos">Pedidos</option>
+                                    <option value="Quero ser um cliente">Quero ser um cliente</option>
+                                    <option value="Diversos">Diversos</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mensagem:</td>
+                            <td>
+                                <textarea required name="mensagem" rows="10" cols="50"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><button type="submit">Enviar</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

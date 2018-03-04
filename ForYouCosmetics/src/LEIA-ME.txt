@@ -1,0 +1,79 @@
+OBSERVAÇÕES:
+- revisar o javadoc dos métodos das combobox's
+- revisar se há necessidade do método alterarEnderecoDeUmCliente, uma vez que ele não está nem com o código certo
+-  revisar o javadoc do método de desabilitar usuário
+- ajeitar o método alterarUmCliente, falta tirar o throws e colocar o logger..
+- revisar o que o método consultarusuário retorna.
+- retirar a senha da consulta do usuário (é de extrema importancia e sigilo ao cliente)
+
+
+OBSERVAÇÕES 07/03:
+- porque o método de consulta por nome de fornecedor tá retornando nulo na linha de código?
+- depois que colocou os lists em todos os métodos de consulta não consigo mais consulta, não retorna nada.
+- cadastro de usuario não funciona.
+
+10/02/15 - Estefânia
+
+- Cadastro de Cliente funcionando.
+- Banco de Dados atualizado (cliente_telefone, fornecedor_telefone)
+- Inclusão do Script do Banco no pacote default
+- Inclusão do diagrama DER no pacote default
+
+11/02/15 - Isabelle
+
+- Cadastro de funcionário
+- Banco de dados atualizado
+- Atualização dos métodos Dao's fornecedor, pedido, itensdopedido.
+- Atualização dos modelos de fornecedor, pedido, itensdopedido.
+
+13/02/15 - Isabelle
+
+- Atualização dos Dao's
+- Banco de dados atualizado
+- Atualização dos testes
+
+15/02/15 - Isabelle
+
+- Atualização do banco de dados.
+- Atualização do ClienteDao, FornecedorDao,
+- Atualização da consultas do cliente e fornecedor.
+
+16/02/15 - Isabelle
+
+- Cadastro de todos funcionando.
+- Consulta de todos funcionando.
+- Atualização de banco de dados.
+- Atualização nos Dao's.
+
+18/02/15 - Estefânia 
+ - Atualização do codigo Alterar.
+- Atualização do cadastro fornecedor na interface
+- Atualização do cadastro produtos na interface
+- Atualização do cadastro de pedidos na interface
+- Correção de algumas variavéis no código de produto
+
+23/02/15 - Estefânia e Isabelle
+ - Cadastro de Pedidos funcionando na Interface
+ - Cadastro do Fornecedor funcinando na Interface
+ - Validação de login e senha funcionando.
+ - Código de Alterar funcionando.
+
+27/02/15 - Estefânia
+
+- Cadastro de Produtos funcionando na interface
+- Padronização completa
+
+28/02/15 - Estefânia
+
+- try/catchs corrigidos
+
+01/03/15 - Isabelle
+- Criação e atualização de javadoc
+
+02/03/15 - Isabelle
+- Criação dos métodos de inativação de cliente e fornecedor.
+- Criação dos métodos de ativação de cliente e fornecedor.
+
+07/03/15 - Isabelle
+- Criação dos métodos de inativação de produto e usuário.
+- Criação dos métodos de ativação de produto e usuário.

@@ -1,0 +1,16 @@
+Interfaces
+br.com.integrador.conexao
+br.com.integrador.dao
+br.com.integrador.execao
+br.com.integrador.modelos
+br.com.integrador.negocio
+br.com.integrador.testes.cliente
+br.com.integrador.testes.conexao
+br.com.integrador.testes.contato
+br.com.integrador.testes.fornecedor
+br.com.integrador.testes.itensdopedido
+br.com.integrador.testes.pedido
+br.com.integrador.testes.pedidoeitens
+br.com.integrador.testes.produto
+br.com.integrador.testes.usuario
+br.com.integrador.testes.usuariocliente
